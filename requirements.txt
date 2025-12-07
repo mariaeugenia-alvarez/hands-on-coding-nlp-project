@@ -3,12 +3,22 @@ tensorflow>=2.15.0
 keras>=3.0.0
 keras_preprocessing>=1.1.2
 
+# PyTorch (para HuggingFace)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
 # NLP y Text Processing
 gensim>=4.3.0
 nltk>=3.8.0
 num2words>=0.5.12
 stop_words>=2018.7.23
 wordcloud>=1.9.0
+beautifulsoup4>=4.12.0
+spacy>=3.7.0
+
+# HuggingFace Transformers
+transformers>=4.30.0
 
 # Data Science
 pandas==1.5.3
